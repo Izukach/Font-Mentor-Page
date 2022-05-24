@@ -1,0 +1,384 @@
+ul {
+  display: flex;
+  width: 100%;
+}
+
+.firstContent {
+  /* background-color: blue; */
+
+  margin-right: 141px;
+
+  padding-top: 4px;
+}
+
+.secoundContent {
+  /* background-color: yellow; */
+  padding-top: 8px;
+  margin-left: 95px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#Navbtn {
+  margin-left: 30px;
+  background-color: white;
+  border: none;
+}
+
+#Navbtn:hover {
+  border-bottom: 3px solid red;
+  cursor: pointer;
+}
+span {
+  background-color: rgb(62, 84, 163);
+  color: white;
+  padding: 2.5px 10px;
+  border-radius: 4px;
+}
+
+#btn1 {
+  border-bottom: none;
+  background-color: rgb(36, 41, 46);
+  color: white;
+  padding: 8.5px 38px;
+  border-radius: 45px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 300px;
+}
+
+#btn1:hover {
+  background-color: rgb(36, 41, 46);
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+#img5 {
+  width: 154px;
+  margin-top: 11px;
+}
+/* *****banner Section**** */
+
+.bannerContainer {
+  /* background-color: blue; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstBanner {
+  /* background-color: aquamarine; */
+  height: 409px;
+  width: 599px;
+}
+
+#btn2 {
+  height: 48px;
+  /* color: red; */
+  width: 255px;
+  background-color: red;
+  color: white;
+  border-radius: 57px;
+  margin-top: 27px;
+  font-size: 16px;
+  border: 0px;
+}
+
+#btn2:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+h1 {
+  font-size: 51px;
+  color: rgb(62, 84, 163);
+}
+p {
+  font-size: 19px;
+}
+
+#img2 {
+  height: 407px;
+  width: 467px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* *******second Banner***** */
+
+.secoundBanner {
+  /* background-color: blue; */
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.bannerOne {
+  width: 357px;
+  /* background-color: brown; */
+  text-align: center;
+}
+#img3 {
+  width: 92px;
+}
+
+/* *******Card container Section****** */
+.cardContainer {
+  background-color: rgb(62, 84, 163);
+  width: 1378px;
+  height: 489px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.cardDivs {
+  /* background-color: brown; */
+  /* height: 500px; */
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card1 {
+  /* background-color: aquamarine; */
+  height: 549px;
+  width: 386px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  /* box-sizing: content-box; */
+  border: 1px solid black;
+  box-shadow: 2px 2px gray;
+}
+
+img {
+  width: 385px;
+  margin-top: 15px;
+}
+.spanAttribute {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: blue; */
+}
+.spanDivs2 {
+  display: flex;
+}
+
+#link1 {
+  color: rgb(130, 190, 205);
+  margin-right: 30px;
+}
+#link2 {
+  color: rgb(62, 84, 163);
+  margin-right: 30px;
+}
+#link3 {
+  color: rgb(207, 99, 144);
+  margin-right: 30px;
+}
+.spanDivs2 {
+  border: 1px solid rgb(170, 215, 66);
+  border-radius: 5px;
+}
+#spanNum {
+  padding: 0px;
+  background-color: rgb(170, 215, 66);
+  color: white;
+}
+#spanText {
+  padding: 0px;
+  color: rgb(170, 215, 66);
+  background-color: white;
+}
+#cardImg:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+/* **********Thrid Banner section*** */
+
+#h3text {
+  font-size: 26px;
+}
+
+.thirdBanner {
+  background-color: rgb(62, 84, 163);
+  width: 1378px;
+  height: 579px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 850px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.thirdDiv {
+  /* background-color: brown; */
+  height: 556px;
+  width: 1113px;
+  margin-top: 90px;
+  text-align: center;
+  color: white;
+}
+
+#img7 {
+  width: 130px;
+}
+
+#Email {
+  width: 346px;
+  height: 38px;
+  padding-left: 15px;
+  outline: none;
+  background-color: rgb(62, 84, 163);
+  border: 1px solid white;
+  margin-right: 21px;
+  color: white;
+}
+#Email:hover {
+  border-style: dashed;
+  border-color: aqua;
+}
+
+::placeholder {
+  color: rgb(159, 156, 191);
+}
+
+#btn8 {
+  width: 192px;
+  height: 48px;
+  border-radius: 41px;
+  font-size: 17px;
+  color: rgb(62, 84, 163);
+  background-color: white;
+  border: 0;
+  font-style: italic;
+}
+
+#btn8:hover {
+  cursor: pointer;
+  color: rgb(99, 120, 195);
+
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+/* *********fouth banner sectiom***** */
+.fouthBanner {
+  /* background-color: brown; */
+  width: 100%;
+  height: 500px;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.fouthBanner1 {
+  /* background-color: blue; */
+  width: 618px;
+  height: 500px;
+  text-align: center;
+}
+#Email2 {
+  width: 346px;
+  height: 38px;
+  padding-left: 15px;
+  outline: none;
+  /* border: 1px solid white; */
+  margin-top: 20px;
+  margin-right: 20px;
+}
+#Email2:hover {
+  border-style: dashed;
+  border-color: aqua;
+}
+#check {
+  width: 35px;
+  height: 28px;
+  border: 1px solid blue;
+}
+
+#btn9 {
+  width: 150px;
+  height: 44px;
+  border-radius: 41px;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: rgb(237, 44, 73);
+  color: white;
+  border: 0px;
+}
+#btn9:hover {
+  cursor: pointer;
+
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+#img10 {
+  width: 545px;
+}
+.inputformWarper {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.inputcheckWarper {
+  display: flex;
+  align-items: center;
+}
+h4 {
+  color: black;
+}
+/* **********Footer**** */
+
+.footerContainer {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 354px;
+  display: flex;
+  /* background-color: gold; */
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.footer1 {
+  /* background-color: red; */
+  height: 333px;
+  width: 374px;
+}
+
+.footer2 {
+  /* background-color: blue; */
+  height: 200px;
+  width: 200px;
+  /* text-align: center; */
+}
+ol {
+  margin-left: 21px;
+}
+.footer3 {
+  height: 200px;
+  width: 200px;
+  /* background-color: blue; */
+}
